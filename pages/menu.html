@@ -2,16 +2,32 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Menú | La Burguesía</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="La Burguesía">
+  <meta name="description" content="Explorá el menú completo de La Burguesía: hamburguesas artesanales con carne smash, bacon crocante, cheddar, salsa exclusiva y más. ¡Pedí ahora en Montevideo!">
+  <meta name="keywords" content="hamburguesas Montevideo, menú La Burguesía, comida rápida, hamburguesas caseras, bacon, cheddar, carne smash, promos de hamburguesas, pedir hamburguesa online">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Menú | La Burguesía - Hamburguesas Caseras en Montevideo">
+  <meta property="og:description" content="Descubrí nuestras hamburguesas con carne smash, cheddar, bacon y más. ¡Probá la Burguesa del mes!">
+  <meta property="og:image" content="https://tusitio.com/images/logo-burguesia.png"> <!-- Asegurate de reemplazar con tu URL final -->
+  <meta property="og:url" content="https://tusitio.com/pages/menu.html"> <!-- URL final real -->
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <title>Menú | La Burguesía - Hamburguesas Caseras en Montevideo</title>
+  
   <link rel="stylesheet" href="../style/css/style.css">
+  <link rel="stylesheet" href="./style/css/style.css">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
+  <!-- AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+
 
 <body class="body-negro">
   <header>
@@ -54,7 +70,7 @@
 
     <!-- Catálogo de productos -->
     <section id="catalogo-productos">
-      <article class="menuproducto">
+      <article class="menuproducto" data-aos="zoom-in" data-aos-delay="0">
         <img src="/images/prod_1.jpg" alt="President Bacon">
 
         <div class="titcat">
@@ -75,7 +91,7 @@
       </article>
 
 
-      <article class="menuproducto">
+      <article class="menuproducto" data-aos="zoom-in" data-aos-delay="100">
         <img src="/images/prod_2.jpg" alt="Cuarto Estado">
         <div class="titcat">
           <h3 class="titulo-producto">Cuarto Estado</h3>
@@ -95,7 +111,7 @@
       </article>
 
 
-      <article class="menuproducto">
+      <article class="menuproducto" data-aos="zoom-in" data-aos-delay="200">
         <img src="/images/prod_3.jpg" alt="Gran Magnate">
         <div class="titcat">
           <h3 class="titulo-producto">Gran Magnate</h3>
@@ -114,7 +130,8 @@
       </article>
 
 
-      <article class="menuproducto">
+
+      <article class="menuproducto" data-aos="zoom-in" data-aos-delay="300">
         <img src="/images/prod_4.jpg" alt="Burguesa">
         <div class="titcat">
           <h3 class="titulo-producto">Burguesa</h3>
@@ -133,7 +150,7 @@
       </article>
 
 
-      <article class="menuproducto">
+      <article class="menuproducto" data-aos="zoom-in" data-aos-delay="400">
         <div class="contenedor-burger">
           <img src="/images/prod_5.jpg" alt="Magnate">
           <div class="titcat">
@@ -153,7 +170,7 @@
       </article>
 
 
-      <article class="menuproducto">
+      <article class="menuproducto" data-aos="zoom-in" data-aos-delay="500">
 
         <img src="/images/prod_6.jpg" alt="Big President">
         <div class="titcat">
@@ -232,6 +249,10 @@
     toggle.addEventListener('click', () => {
       nav.classList.toggle('active');
     });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 
 </body>

@@ -2,177 +2,196 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La Burguesía</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="La Burguesía" />
+  <meta name="description" content="Disfrutá de las mejores hamburguesas artesanales de Montevideo. Pedí online o reservá tu mesa." />
+  <meta name="keywords" content="hamburguesas, Montevideo, comida artesanal, La Burguesía, delivery, menú" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.laburguesia.uy/" />
 
-    <!-- Google Fonvts   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="La Burguesía - Hamburguesas Gourmet en Montevideo" />
+  <meta property="og:description" content="Conocé nuestro menú de hamburguesas artesanales y pedí online." />
+  <meta property="og:image" content="https://www.laburguesia.uy/images/og-image.jpg" />
+  <meta property="og:url" content="https://www.laburguesia.uy/" />
+  <meta property="og:site_name" content="La Burguesía" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="La Burguesía - Hamburguesas Gourmet en Montevideo" />
+  <meta name="twitter:description" content="Disfrutá de nuestras hamburguesas artesanales en Montevideo." />
+  <meta name="twitter:image" content="https://www.laburguesia.uy/images/og-image.jpg" />
 
-    <!-- Estilos propios -->
-    <link rel="stylesheet" href="./style/css/style.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <title>La Burguesía - Hamburguesas Gourmet en Montevideo</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="./style/css/style.css" />
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <a class="logo" href="../index.html">
-            <img src="../images/logo-burguesia.png" alt="Logo La Burguesía">
-        </a>
+  <!-- Header -->
+  <header>
+    <a class="logo" href="../index.html">
+      <img src="../images/logo-burguesia.png" alt="Logo de La Burguesía" />
+    </a>
 
-        <div class="menu-toggle" id="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="pages/menu.html">Menú</a></li>
-                <li><a href="../pages/sobre-nosotros.html">Sobre Nosotros</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-                <li><a href="../pages/pedidos.html">Pedidos</a></li>
-            </ul>
-        </nav>
-
-        <a class="boton" href="#">
-            <img src="../images/icono_carrito.png" alt="Carrito">
-        </a>
-    </header>
-
-    <!-- Main -->
-    <main class="container mt-5">
-
-        <!-- Banner -->
-        <section id="banner" class="hero-banner mb-0">
-            <div class="overlay"></div>
-            <div class="hero-text text-start">
-                <h1 class="display-4 fw-bold">La Burguesía</h1>
-                <h2 class="fs-4 fst-italic">"Para paladares refinados y estómagos hambrientos."</h2>
-            </div>
-        </section>
-
-        <!-- Productos -->
-        <section id="productos">
-            <h2 class="text-center mb-4">Nuestros Productos</h2>
-            <div class="row g-4 justify-content-center">
-
-                <article class="col-md-4">
-                    <div class="card h-100">
-                        <img src="images/prod_1.jpg" class="card-img-top" alt="President Bacon" />
-                        <div class="card-body">
-                            <h3 class="card-title">President Bacon</h3>
-                            <p class="card-text">100g de carne smash, doble cheddar, cebolla caramelizada, bacon
-                                crujiente y salsa “burguesa".</p>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="col-md-4">
-                    <div class="card h-100">
-                        <img src="images/prod_2.jpg" class="card-img-top" alt="Cuarto Estado" />
-                        <div class="card-body">
-                            <h3 class="card-title">Cuarto Estado</h3>
-                            <p class="card-text">220g de carne smash (doble carne), doble cheddar, cebolla y ketchup.
-                            </p>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="col-md-4">
-                    <div class="card h-100">
-                        <img src="images/prod_3.jpg" class="card-img-top" alt="Gran Magnate" />
-                        <div class="card-body">
-                            <h3 class="card-title">Gran Magnate</h3>
-                            <p class="card-text">Lechuga, tomate, cebolla y salsa (ketchup, mostaza y mayonesa).</p>
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- Carrusel de descuentos -->
-        <section id="descuentos" class="my-5 position-relative w-100">
-            <h2 class="text-center mb-4">Descuentos</h2>
-            <div class="position-relative overflow-hidden">
-                <img src="images/descuentos.jpg" alt="Descuento destacado" class="img-carrusel" />
-
-                <button class="flecha-carrusel izquierda">
-                    <img src="images/flecha-izquierda.png.png" alt="Anterior" />
-                </button>
-                <button class="flecha-carrusel derecha">
-                    <img src="images/flecha-derecha.png.png" alt="Siguiente" />
-                </button>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer-container">
-        <div class="footer-content">
-
-            <div class="footer-links">
-                <div class="footer-column">
-                    <h3>La Burguesía</h3>
-                    <ul>
-                        <li><a href="../pages/pedidos.html">Pedidos</a></li>
-                        <li><a href="../pages/menu.html">Menú</a></li>
-                        <li><a href="#descuentos">Promos</a></li>
-                        <li><a href="../pages/contacto.html">Locales</a></li>
-                        <li><a href="#">Novedades</a></li>
-                        <li><a href="../pages/sobre-nosotros.html">Sobre Nosotros</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Info</h3>
-                    <ul>
-                        <li><a href="../pages/contacto.html">Contacto</a></li>
-                        <li><a href="#">Trabaja con nosotros</a></li>
-                        <li><a href="#">Política de privacidad</a></li>
-                        <li><a href="#">Términos y condiciones</a></li>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-        <hr />
-        <div class="footer-bottom">
-            <p>&copy; 2025 La Burguesía. Todos los derechos reservados.</p>
-            <div class="footer-social">
-                <a href="#"><img src="../images/facebook_icono.png" alt="Facebook" /></a>
-                <a href="#"><img src="../images/instagram_icono.png" alt="Instagram" /></a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- WhatsApp Fijo -->
-    <div class="whatsapp-fijo position-fixed bottom-0 end-0 p-3">
-        <img src="images/whatsapp_icono.png" alt="WhatsApp" width="48" />
+    <div class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
 
-    <!-- Bootstrap JS (opcional si usás componentes interactivos) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="pages/menu.html">Menú</a></li>
+        <li><a href="../pages/sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="../pages/contacto.html">Contacto</a></li>
+        <li><a href="../pages/pedidos.html">Pedidos</a></li>
+      </ul>
+    </nav>
 
-    <script>
-        const toggle = document.getElementById('menu-toggle');
-        const nav = document.querySelector('header nav');
+    <a class="boton" href="#" aria-label="Ver carrito de compras">
+      <img src="../images/icono_carrito.png" alt="Ícono de carrito de compras" />
+    </a>
+  </header>
 
-        toggle.addEventListener('click', () => {
-            nav.classList.toggle('active');
-        });
-    </script>
+  <!-- Main -->
+  <main class="container mt-5">
+    <!-- Banner -->
+    <section id="banner" class="hero-banner mb-0" data-aos="fade-up">
+      <div class="overlay"></div>
+      <div class="hero-text text-start">
+        <h1 class="display-4 fw-bold">La Burguesía</h1>
+        <h2 class="fs-4 fst-italic">"Para paladares refinados y estómagos hambrientos."</h2>
+      </div>
+    </section>
 
+    <!-- Productos -->
+    <section id="productos" data-aos="fade-up">
+      <h2 class="text-center mb-4" data-aos="fade-down" data-aos-delay="100">Nuestros Productos</h2>
+      <div class="row g-4 justify-content-center">
+        <article class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card h-100">
+            <img src="images/prod_1.jpg" class="card-img-top" alt="Hamburguesa President Bacon" />
+            <div class="card-body">
+              <h3 class="card-title">President Bacon</h3>
+              <p class="card-text">100g de carne smash, doble cheddar, cebolla caramelizada, bacon crujiente y salsa “burguesa".</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card h-100">
+            <img src="images/prod_2.jpg" class="card-img-top" alt="Hamburguesa Cuarto Estado" />
+            <div class="card-body">
+              <h3 class="card-title">Cuarto Estado</h3>
+              <p class="card-text">220g de carne smash (doble carne), doble cheddar, cebolla y ketchup.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="card h-100">
+            <img src="images/prod_3.jpg" class="card-img-top" alt="Hamburguesa Gran Magnate" />
+            <div class="card-body">
+              <h3 class="card-title">Gran Magnate</h3>
+              <p class="card-text">Lechuga, tomate, cebolla y salsa (ketchup, mostaza y mayonesa).</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Carrusel de descuentos -->
+    <section id="descuentos" class="my-5 position-relative w-100" data-aos="fade-up">
+      <h2 class="text-center mb-4">Descuentos</h2>
+      <div class="position-relative overflow-hidden">
+        <img src="images/descuentos.jpg" alt="Promoción de hamburguesas con descuento" class="img-carrusel" />
+
+        <button class="flecha-carrusel izquierda" aria-label="Imagen anterior">
+          <img src="images/flecha-izquierda.png.png" alt="Flecha izquierda" />
+        </button>
+        <button class="flecha-carrusel derecha" aria-label="Imagen siguiente">
+          <img src="images/flecha-derecha.png.png" alt="Flecha derecha" />
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-container">
+    <div class="footer-content">
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3>La Burguesía</h3>
+          <ul>
+            <li><a href="../pages/pedidos.html">Pedidos</a></li>
+            <li><a href="../pages/menu.html">Menú</a></li>
+            <li><a href="#descuentos">Promos</a></li>
+            <li><a href="../pages/contacto.html">Locales</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="../pages/sobre-nosotros.html">Sobre Nosotros</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Info</h3>
+          <ul>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+            <li><a href="#">Trabajá con nosotros</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="footer-bottom">
+      <p>&copy; 2025 La Burguesía. Todos los derechos reservados.</p>
+      <div class="footer-social">
+        <a href="#"><img src="../images/facebook_icono.png" alt="Facebook de La Burguesía" /></a>
+        <a href="#"><img src="../images/instagram_icono.png" alt="Instagram de La Burguesía" /></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Fijo -->
+  <div class="whatsapp-fijo position-fixed bottom-0 end-0 p-3">
+    <img src="images/whatsapp_icono.png" alt="Icono de WhatsApp" width="48" />
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.querySelector('header nav');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
